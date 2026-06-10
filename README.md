@@ -12,7 +12,11 @@
 
 - Python 3.10+
 - 動いている SearXNG（**JSON 出力が有効になっていること**。下記参照）
-- `fastmcp` / `httpx`
+- `fastmcp` / `httpx`（`pip install fastmcp httpx`）
+
+実行場所は問わない。SearXNG に HTTP で届く場所ならどこでも。
+作者環境では SearXNG と同居する Windows 機。
+
 
 ```bash
 pip install fastmcp httpx
